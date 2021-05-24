@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content = />
+    <title>Chat - Welcome to kokoa Talk</title>
+</head>
+   
+<body id="chat-screen">
+    <div class = "status-bar">
+        <div class ="status-bar_column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>       
+            <!-- To do : Wifi Icon-->
+            
+        </div>
+        <div class ="status-bar_column">
+            <span>18:43</span>       
+     
+        </div>
+        <div class ="status-bar_column">
+            <span>100%</span> 
+            <i class="fas fa-battery-full fa-xl"></i>
+            <i class="fas fa-bolt"></i>
+            <!-- Battery Icon-->
+            <!-- Lightning Icon-->
+        </div>
+    </div>
+
+    <div class="header alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">YUN</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </div>
+
+    <main class="main-screen main-chat">
+        
+        <div class="chat__timestamp">
+            Tuesday, April 30, 2021
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+            
+            <div class="message__info">
+                <span class="message__bubble">항공권 예약 확인할 수 있을까요?</span>
+                <span class="message__time">21:27</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://images.unsplash.com/photo-1617391248426-a93771a9335b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGFpcmxpbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+            <div class="message-row__content">
+            <span class="message__author">KR Airline</span>
+            <div class="message__info">
+                <span class="message__bubble">예약하신 항공권은 아래와 같습니다.</span>
+                <span class="message__time">21:28</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://images.unsplash.com/photo-1617391248426-a93771a9335b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGFpcmxpbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+            <div class="message-row__content">
+            <span class="message__author">KR Airline</span>
+            <div class="message__info">
+                <div class="message__reservation">
+                    <div class="message__reservation__sm">
+                    <span># 항공권 예약 관리</span> 
+                    </div>
+                    <div class="flight_schedule">
+                        <div class="flight_schedule__photo">
+                            <img src="https://flight.naver.com/flights/assets/images/logo/KE.png"/>
+                            <span>대한항공</span>
+                        </div>
+                        
+                        <div class="flight_schedule__section">
+                            <span class="flight_schedule__date">2021.05.25 (화)</span>
+                            <div class="flight_schedule__time">
+                            <span class="flight_schedule__departures">ICN(인천)</span>
+                            <span><i class="fas fa-plane-departure"></i></span>
+                            <span class="flight_schedule__arrival">NRT(도쿄, 나리타)</span>
+                        </div>
+                        <div class="flight-line"></div>
+                        <span class="flight-time">11:15</span>
+                        <span class="flight-time">직항, 일반석</span>
+                        <span class="flight-time">13:15</span>
+                    
+                    </div>
+                </div>  
+             
+                <div class="flight_schedule">
+                    <div class="flight_schedule__photo">
+                        <img src="https://flight.naver.com/flights/assets/images/logo/KE.png"/>
+                        <span>대한항공</span>
+                    </div>                        
+                    <div class="flight_schedule__section">
+                        <span class="flight_schedule__date">2021.06.04 (금))</span>
+                        <div class="flight_schedule__time">
+                            <span class="flight_schedule__arrival">NRT(도쿄, 나리타)</span>
+                            <span><i class="fas fa-plane-arrival"></i></span>        
+                            <span class="flight_schedule__departures">ICN(인천)</span>
+                            
+                            
+                    </div>
+                        <div class="flight-line"></div>
+                        <span class="flight-time">19:15</span>
+                        <span class="flight-time">직항, 일반석</span>
+                        <span class="flight-time">23:35</span>
+                    
+                </div>
+                </div>
+            </div>
+            <span class="message__time">21:28</span>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message.." />
+            <i class="far fa-smile-wink"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+      </div>
+  
+
+   <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous">
+ </script>
+</body>
+</html>

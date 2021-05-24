@@ -29,16 +29,60 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span><i class="fab fa-youtube fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+           
         </div>
         <span class="badge badge--sm"></span>
     </header>
 
-    <main class="main-screen">
-        
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/07/31/14/09/hot-3575167_1280.jpg"
+                class="user-component__avatar user-component__avatar--xl"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">YUN</h4>
+                <h6 class="user-component__subtitle">+82 010 423 1323</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+          </div>
+
+          <div class="icon-row">
+            
+            <div class="icon-row__icon">
+                <i class="far fa-smile-beam"></i>
+                <span>Emotions</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span></div>
+            <div class="icon-row__icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Acoout</span></div>
+            <div class="icon-row__icon">
+                    <i class="far fa-sun"></i>
+                <span>Weather</span></div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+        </div>
+        <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image">
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <span class="more-suggestions__icon-text">Travel</span>
+            </div>
+        </div>
     </main>
 
     
@@ -55,7 +99,7 @@
             <span class="nav__notification badge    ">1</span></a>
           </li>
           <li class="nav__btn">
-            <a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i></a>
+            <a class="nav__link" href="reservation.html"><i class="fas fa-search fa-lg"></i></a>
           </li>
           <li class="nav__btn">
             <a class="nav__link" href="more.html"
@@ -65,7 +109,9 @@
         </ul>
       </nav>
          
-  
+      <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+      </div>
 
    <script src="https://kit.fontawesome.com/6478f529f2.js"
 crossorigin="anonymous">
