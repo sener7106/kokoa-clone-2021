@@ -1,35 +1,18 @@
 #no-mobile {
-    display: none;
-    }
-    @media screen and (min-width: 420px) {
-    #no-mobile {
-    position: fixed;
-    
+    position: absolute;
     z-index: 99;
-    width: 100vw;
     height: 100vh;
     background-color: aliceblue;
-    top: 0;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
-    font-weight: 600;
-    }
-    /* 스크롤 불가 설정 */
-    body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-    }
-<<<<<<< Updated upstream
-    }
-
-@media screen and (max-width:645px){
+    top: 0;
+  }
+  
+  @media screen and (max-width: 645px) {
     #no-mobile {
-        display: none; 
+      display: none;
     }
-}
-=======
-    
->>>>>>> Stashed changes
+  }
