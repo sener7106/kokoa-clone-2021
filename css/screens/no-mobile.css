@@ -11,8 +11,8 @@
 >>>>>>> main
     z-index: 99;
     height: 100vh;
-    background-color: aliceblue;
     width: 100vw;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
