@@ -22,6 +22,7 @@
     height: 100%;
     overflow: hidden;
     }
+<<<<<<< Updated upstream
     }
 
 @media screen and (max-width:645px){
@@ -29,3 +30,6 @@
         display: none; 
     }
 }
+=======
+    
+>>>>>>> Stashed changes
