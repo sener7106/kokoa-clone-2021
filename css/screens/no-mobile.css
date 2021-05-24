@@ -1,19 +1,23 @@
 #no-mobile {
+<<<<<<< HEAD
     display: none;
     }
     @media screen and (min-width: 650px) {
     #no-mobile {
     position: fixed;
     
+=======
+    position: absolute;
+>>>>>>> main
     z-index: 99;
-    width: 100vw;
     height: 100vh;
     background-color: aliceblue;
-    top: 0;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
+<<<<<<< HEAD
     font-weight: 600;
     }
     /* 스크롤 불가 설정 */
@@ -29,11 +33,21 @@
     }
 
 @media screen and (max-width:645px){
+=======
+    top: 0;
+  }
+  
+  @media screen and (max-width: 645px) {
+>>>>>>> main
     #no-mobile {
-        display: none; 
+      display: none;
     }
+<<<<<<< HEAD
 }
 =======
     
 >>>>>>> Stashed changes
+>>>>>>> main
+=======
+  }
 >>>>>>> main
